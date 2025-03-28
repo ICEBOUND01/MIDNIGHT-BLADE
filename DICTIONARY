@@ -1,0 +1,14 @@
+dict_terminal = {
+    "LOL": "Suele ser una forma de expresar una risa en conversaciones por medio de chat de texto",
+    "ROFL": "Abreviatura para rolls on floor laughing que significa rodando de la risa en el suelo",
+    "SHEESH": "Es una expresión de sorpresa",
+    "BRB": "Es una abreviatura para be right back que significa vuelvo enseguida",
+    "NP": "Es una abreviatura para no problem se suele usar para decir denada",
+}
+
+word_terminal = input("Escriba la palabra cuyo significado quiera saber:")
+
+if word_terminal in dict_terminal.keys():
+    print("Esta palabra significa:", dict_terminal[word_terminal])
+else:
+    print("ERROR")
