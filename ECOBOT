@@ -1,0 +1,32 @@
+import discord
+import random
+from discord.ext import commands
+
+# Lista de consejos ecológicos
+consejos_eco = [
+    "🌱 Usa una botella reutilizable en lugar de botellas de plástico.",
+    "🚴‍♂️ Usa la bicicleta o transporte público cuando puedas.",
+    "♻️ Recicla papel, vidrio y plástico correctamente.",
+    "🔌 Desconecta los aparatos que no estés usando para ahorrar energía.",
+    "🌿 Planta un árbol o ayuda en campañas de reforestación.",
+    "🛒 Lleva tus propias bolsas reutilizables al supermercado.",
+    "🍃 Haz compost con restos de comida para evitar desperdicio.",
+    "🌞 Ahorra energía usando luz natural siempre que puedas."
+]
+
+intents = discord.Intents.default()
+bot = commands.Bot(command_prefix='/', intents=intents)
+
+@bot.event
+async def on_ready():
+    print(f'✅ El bot {bot.user.name} está listo y conectado.')
+
+@bot.command(name='consejo')
+async def enviar_consejo(ctx):
+    consejo = random.choice(consejos_eco)
+    await ctx.send(consejo)
+
+# Reemplaza esto con tu token
+TOKEN = 'AQUÍ_TU_TOKEN_DEL_BOT'
+
+bot.run(TOKEN)
