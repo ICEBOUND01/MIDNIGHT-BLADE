@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROTOTYPE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <p>In this forum I will be keeping track of my Sea Of Thieves Insider weekly reward progress</p>
+    <p>Week 1: Silver Blade Sails</p>
+    <img src="https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/2/2b/Silver_Blade_Sails_Promo.jpg/revision/latest/scale-to-width-down/1200?cb=20191108135639"
+    width="380" height="240">
+    <p>Week 2: Silver Blade Hull</p>
+    <img src="https://rare-assets.azureedge.net/compass/3495e3d339fc758875b7180946b634d7a7f83eb4.jpg"
+    width="380" height="240">
+    <p>Week 3: Silver Blade Figurehead</p>
+    <p>Week 4: Silver Blade Flag</p>
+    <p>Week 5: Silver Blade Wheel</p>
+    <p>Week 6: Silver Blade Cannons</p>
+
+
+
+
+
+</body>
